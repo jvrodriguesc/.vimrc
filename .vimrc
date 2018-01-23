@@ -19,6 +19,12 @@ let g:lightline = {
   \ 'colorscheme': 'one',
 \ }
 
+ino " ""<left>
+ino ' ''<left>
+ino ( ()<left>
+ino [ []<left>
+ino { {}<left>
+
 set backspace=indent,eol,start
 
 filetype plugin on    " required
